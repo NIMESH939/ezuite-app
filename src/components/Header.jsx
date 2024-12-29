@@ -4,7 +4,7 @@ import logo from "../Images/WebLogo.png";
 const Header = () => {
   return (
     <header className="bg-blue-700 text-white px-6 py-2 flex justify-between items-center">
-      <div className="flex items-center">
+      <div className="flex items-center cursor-pointer">
         <svg
           class="h-7 w-7 text-neutral-100"
           fill="none"
@@ -24,7 +24,7 @@ const Header = () => {
 
       <div className="flex gap-3 items-center">
         <svg
-          class="h-7 w-7 text-neutral-100"
+          class="h-5 w-5 text-neutral-100"
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ const Header = () => {
       </div>
 
       <div className="flex items-center space-x-4">
-        <div className="flex items-center space-x-2 gap-4">
+        <div className="flex items-center space-x-2 gap-4 cursor-pointer">
           <span className="text-lg">Enhanzer</span>
           <div className="w-8 h-8 bg-blue-500 text-center rounded-full flex items-center justify-center">
             L
